@@ -68,6 +68,6 @@ public class CatTest {
 			cat.runs();
 			cat.feeds();
 		}
-		assertTrue(cat.isAlive() == false);
+		assertTrue(!cat.isAlive());
 	}
 }
